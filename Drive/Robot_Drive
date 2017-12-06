@@ -37,7 +37,7 @@ int RecordTime; //stores time. used for delays
 int ShootDuration = 2000; //sets the duration the robot shoots candy if just switched on and off in milliseconds.
 
 
-char State = "off"; // state in candy shooting sequence, starts in off and is in off whenever it isnt in the process of shooting
+String State = "off"; // state in candy shooting sequence, starts in off and is in off whenever it isnt in the process of shooting
 
 boolean SpinMotor1 = false; //records whether or not Broadcast spreader motor is spinning 
 boolean CandyMotor1 = false; // records whether or not hopper/candy dispenser motor is rotating
